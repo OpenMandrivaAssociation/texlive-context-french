@@ -1,3 +1,9 @@
+# revision 23167
+# category ConTeXt
+# catalog-ctan /macros/context/contrib/context-french
+# catalog-date 2009-10-11 01:33:30 +0200
+# catalog-license gpl
+# catalog-version undef
 Name:		texlive-context-french
 Version:	20091011
 Release:	1
@@ -43,6 +49,7 @@ Deals with spacing around French punctuation.
 %{_texmfdistdir}/tex/context/third/french/t-french.tex
 %doc %{_texmfdistdir}/doc/context/third/french/french-demo.pdf
 %doc %{_texmfdistdir}/doc/context/third/french/french-doc.pdf
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -53,3 +60,5 @@ Deals with spacing around French punctuation.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
