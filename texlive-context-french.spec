@@ -1,11 +1,11 @@
-# revision 23167
+# revision 24582
 # category ConTeXt
 # catalog-ctan /macros/context/contrib/context-french
-# catalog-date 2009-10-11 01:33:30 +0200
+# catalog-date 2011-11-10 06:26:05 +0100
 # catalog-license gpl
 # catalog-version undef
 Name:		texlive-context-french
-Version:	20091011
+Version:	20111110
 Release:	1
 Summary:	Support for writing French in ConTeXt
 Group:		Publishing
@@ -18,11 +18,13 @@ BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
 Requires(post):	texlive-kpathsea
 Requires(post):	texlive-context
+Requires:	texlive-context
 Conflicts:	texlive-texmf <= 20110705-3
 Conflicts:	texlive-doc <= 20110705-3
 
 %description
-Deals with spacing around French punctuation.
+Deals with spacing around French punctuation; the package is
+distributed for ConTeXt Mark iv only.
 
 %pre
     %_texmf_mtxrun_pre
@@ -46,7 +48,7 @@ Deals with spacing around French punctuation.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/context/third/french/t-french.tex
+%{_texmfdistdir}/tex/context/third/french/t-french.mkiv
 %doc %{_texmfdistdir}/doc/context/third/french/french-demo.pdf
 %doc %{_texmfdistdir}/doc/context/third/french/french-doc.pdf
 %doc %{_tlpkgobjdir}/*.tlpobj
