@@ -47,3 +47,21 @@ distributed for ConTeXt Mark iv only.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 20111110-2
++ Revision: 750495
+- Rebuild to reduce used resources
+
+* Tue Nov 22 2011 Paulo Andrade <pcpa@mandriva.com.br> 20111110-1
++ Revision: 732510
+- texlive-context-french
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20091011-1
++ Revision: 718130
+- texlive-context-french
+- texlive-context-french
+- texlive-context-french
+- texlive-context-french
+
