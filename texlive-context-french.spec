@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-context-french
 Version:	20111110
-Release:	5
+Release:	6
 Summary:	Support for writing French in ConTeXt
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/context/contrib/context-french
