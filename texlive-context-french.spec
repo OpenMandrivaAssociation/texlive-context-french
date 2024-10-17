@@ -3,7 +3,7 @@ Version:	54215
 Release:	2
 Summary:	Support for writing French in ConTeXt
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/context/contrib/context-french
+URL:		https://www.ctan.org/tex-archive/macros/context/contrib/context-french
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/context-french.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/context-french.doc.r%{version}.tar.xz
